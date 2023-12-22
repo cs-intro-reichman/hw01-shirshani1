@@ -7,10 +7,10 @@ public class Coins {
 		int coins = Integer.parseInt(args[0]);
 		int quarter = 25;
 		int cent = 1;
-		int how_many_querters = coins/ quarter;
+		int how_many_quarters = coins/ quarter;
 		int rest = (coins % quarter); 
 		int how_many_cents = rest;
-		System.out.println("Use " + how_many_querters + " querters and " + (rest + " cents"));
+		System.out.println("Use " + how_many_quarters + " quarters and " + (rest + " cents"));
 
 
 	}
