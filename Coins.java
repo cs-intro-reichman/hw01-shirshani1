@@ -4,6 +4,14 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		int coins = Integer.parseInt(args[0]);
+		int quarter = 25;
+		int cent = 1;
+		int how_many_querters = coins/ quarter;
+		int rest = (coins % quarter); 
+		int how_many_cents = rest;
+		System.out.println("use " + how_many_querters + " querters and " + (rest + " cents"));
+
+
 	}
 }
