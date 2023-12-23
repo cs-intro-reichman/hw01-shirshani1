@@ -5,6 +5,12 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-		// Put your code here	
+		int firstNum= Integer.parseInt(args[0]); 
+		int secondNum= Integer.parseInt(args[1]);
+		int thirdNum= Integer.parseInt(args[2]);	
+		boolean answer= ((firstNum + secondNum) > thirdNum) &&
+						 ((secondNum + thirdNum) > firstNum) && 
+						 ((firstNum + thirdNum) > secondNum);
+		System.out.println(firstNum +  ", " + secondNum + ", " + thirdNum + ": " + answer );
 	}
 }
