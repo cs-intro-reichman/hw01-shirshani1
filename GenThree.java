@@ -6,9 +6,9 @@ public class GenThree {
 	public static void main(String[] args) {
 		int minNum= Integer.parseInt(args[1]); 
 		int maxNum= Integer.parseInt(args[0]);
-		int firtNum= ((int)(Math.random() * maxNum - minNum + 1) + minNum);
-		int secondNum= ((int)(Math.random() * maxNum - minNum + 1) + minNum);
-		int thirdNum= ((int)(Math.random() * maxNum - minNum + 1) + minNum);
+		int firtNum= ((int)(Math.random() * (maxNum - minNum + 1) + minNum));
+		int secondNum= ((int)(Math.random() * (maxNum - minNum + 1) + minNum));
+		int thirdNum= ((int)(Math.random() * (maxNum - minNum + 1) + minNum));
 		System.out.println(firtNum);
 		System.out.println(secondNum);
 		System.out.println(thirdNum);
