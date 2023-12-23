@@ -11,7 +11,7 @@ public class LinearEq {
 		double thirdNum= Double.parseDouble(args[2]);
 		double answer= (thirdNum - secondNum) / firstNum;
 		System.out.println(firstNum + " * " +"x + " + secondNum + " = " + thirdNum );
-		System.out.println( "X = " + answer);
+		System.out.println( "x = " + answer);
 
 
 	}
