@@ -5,7 +5,9 @@ public class AddTwo {
 	public static void main(String[] args) {
 		int firstNum= Integer.parseInt(args[0]);
 		int secondNum= Integer.parseInt(args[1]);
-		int sum= a + b;
-		System.out.println(a + " + " + b + " = " + sum);		
+		int sum= firstNum + secondNum;
+		System.out.println(firstNum + " + " + secondNum + " = " + sum);		
 	}
 }
+
+
