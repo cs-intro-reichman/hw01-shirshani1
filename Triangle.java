@@ -10,7 +10,8 @@ public class Triangle {
 		int thirdNum= Integer.parseInt(args[2]);	
 		boolean answer= ((firstNum + secondNum) > thirdNum) &&
 						 ((secondNum + thirdNum) > firstNum) && 
-						 ((firstNum + thirdNum) > secondNum);
+						 ((firstNum + thirdNum) > secondNum); /*checking if the sum of every two numbers is 
+						 										grater fron the third (from the formula).*/
 		System.out.println(firstNum +  ", " + secondNum + ", " + thirdNum + ": " + answer );
 	}
 }
